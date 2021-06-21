@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+#title {
+    color: blanchedalmond;
+    text-align: center;
+}
+p {
+    color: blanchedalmond;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 50%;
+    max-height: auto;
+
+}
+h2 {
+    text-align: center;
+    color: blanchedalmond;
+}
+h3 {
+    text-align: center;
+    color: blanchedalmond;
+    width: 75%;
+    max-width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 50%;
+    max-height: auto;
+}
+
+.contents {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 50%;
+    max-height: auto;
+}
