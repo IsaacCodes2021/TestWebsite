@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <!-- This is a change-->
+    <head>
+        <title>BitBook</title>
+        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.4.1/chart.min.js"></script>
+        <script defer src="./Phase-1-prjct.js"></script>
+        <link rel="stylesheet" href="./phase-1-prjct.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    </head>
+    <body>
+        <h1 id="doc-title">BitBook</h1>
+        <br>
+        <form id = 'search'>
+            <input class = 'input is-small' type="text" placeholder="search cyrptos"> <button class = 'button is-primary is-outlined is-small'>search</button>
+        </form>
+        <div id="market-totals">
+            <span id = 'marketCap'>MarketCap: xxxxxx</span>      
+            <span id = 'dailyVolume'>24hr. volume: xxxxxx</span>
+            <br>
+            <span class = 'biggestGains'></span>
+            <span class = 'biggestLosses'></span>
+        </div>
+        <div class = 'sideBar'>
+            <table id = 'rankedList'>
+                <tr>
+                    <th>Rank</th>
+                    <th>Name</th>
+                    <th>Symbol</th>
+                    <th>% Change</th>
+                    <th>Link</th>
+                </tr>
+            </table>
+        </div>
+            <div id="cards-container"></div>
+            <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    </body>
+</html>

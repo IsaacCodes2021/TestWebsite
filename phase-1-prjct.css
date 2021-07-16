@@ -1,0 +1,127 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    color: white;
+}
+
+.coin-card {
+    width: 600px;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+#cards-container {
+    padding-left: 480px;
+}
+
+#card-title {
+    text-align: center;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+#card-expanded {
+    width: 525px;
+    margin-left: 45px;
+    border-top: 1px solid;
+}
+
+#dropdpwn-info {
+    width: 250px;
+}
+
+#card-header {
+    font-weight: bold;
+}
+
+#commentInput {
+    padding-right: 10px;
+    width: 200px;
+}
+#commnet-sub {
+    padding-left: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 0%;
+}
+#doc-title {
+    padding-left: 480px;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder ;
+    padding-top: 20px;
+
+}
+
+#search {
+    padding-left: 38px;
+}
+
+#market-totals{
+    font-family: Arial;
+    font-size: larger;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 480px;
+}
+#search{
+    text-align: center;
+    padding-left: 480px;
+
+}
+.sideBar{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: auto;
+    min-width: 452px;
+    float: left;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    overflow-y: auto;
+   margin: 10px;
+   padding: 10px;
+}
+tr {
+    border-bottom: 1px solid black;
+}
+tr.positive td.flux{
+    color: #080;
+}
+tr.negative td.flux{
+    color: red;
+}
+tr td.link a{
+    color: white;
+}
+input.input {
+    width: 200px
+}
+span#gains {
+    color: #080;
+}
+span#losses{
+    color: red;
+}
+
+#myBtn {
+    display: block;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #485fc7;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+}
